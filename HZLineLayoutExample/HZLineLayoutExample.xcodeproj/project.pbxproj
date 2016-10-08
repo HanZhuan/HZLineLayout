@@ -15,9 +15,9 @@
 		8FF6A5471DA8B5C7008A403A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6A5451DA8B5C7008A403A /* LaunchScreen.storyboard */; };
 		8FF6A5521DA8B5C7008A403A /* HZLineLayoutExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6A5511DA8B5C7008A403A /* HZLineLayoutExampleTests.m */; };
 		8FF6A55D1DA8B5C7008A403A /* HZLineLayoutExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6A55C1DA8B5C7008A403A /* HZLineLayoutExampleUITests.m */; };
-		8FF6A56D1DA8B637008A403A /* HZLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6A56C1DA8B637008A403A /* HZLineLayout.m */; };
 		8FF6A5761DA8B6B3008A403A /* HZPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6A5741DA8B6B3008A403A /* HZPictureCell.m */; };
 		8FF6A5771DA8B6B3008A403A /* HZPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6A5751DA8B6B3008A403A /* HZPictureCell.xib */; };
+		8FF6A5C41DA8BAED008A403A /* HZLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6A5C31DA8BAED008A403A /* HZLineLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +54,11 @@
 		8FF6A5581DA8B5C7008A403A /* HZLineLayoutExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZLineLayoutExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF6A55C1DA8B5C7008A403A /* HZLineLayoutExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZLineLayoutExampleUITests.m; sourceTree = "<group>"; };
 		8FF6A55E1DA8B5C7008A403A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FF6A56B1DA8B637008A403A /* HZLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLineLayout.h; sourceTree = "<group>"; };
-		8FF6A56C1DA8B637008A403A /* HZLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLineLayout.m; sourceTree = "<group>"; };
 		8FF6A5731DA8B6B3008A403A /* HZPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPictureCell.h; sourceTree = "<group>"; };
 		8FF6A5741DA8B6B3008A403A /* HZPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZPictureCell.m; sourceTree = "<group>"; };
 		8FF6A5751DA8B6B3008A403A /* HZPictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZPictureCell.xib; sourceTree = "<group>"; };
+		8FF6A5C21DA8BAED008A403A /* HZLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLineLayout.h; sourceTree = "<group>"; };
+		8FF6A5C31DA8BAED008A403A /* HZLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLineLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 		8FF6A5361DA8B5C7008A403A /* HZLineLayoutExample */ = {
 			isa = PBXGroup;
 			children = (
-				8FF6A56A1DA8B637008A403A /* HZLineLayout */,
+				8FF6A5C11DA8BAED008A403A /* HZLineLayout */,
 				8FF6A53A1DA8B5C7008A403A /* AppDelegate.h */,
 				8FF6A53B1DA8B5C7008A403A /* AppDelegate.m */,
 				8FF6A53D1DA8B5C7008A403A /* ViewController.h */,
@@ -152,14 +152,14 @@
 			path = HZLineLayoutExampleUITests;
 			sourceTree = "<group>";
 		};
-		8FF6A56A1DA8B637008A403A /* HZLineLayout */ = {
+		8FF6A5C11DA8BAED008A403A /* HZLineLayout */ = {
 			isa = PBXGroup;
 			children = (
-				8FF6A56B1DA8B637008A403A /* HZLineLayout.h */,
-				8FF6A56C1DA8B637008A403A /* HZLineLayout.m */,
+				8FF6A5C21DA8BAED008A403A /* HZLineLayout.h */,
+				8FF6A5C31DA8BAED008A403A /* HZLineLayout.m */,
 			);
 			name = HZLineLayout;
-			path = ../../../HZLineLayout/HZLineLayout;
+			path = ../../HZLineLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,10 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FF6A53F1DA8B5C7008A403A /* ViewController.m in Sources */,
-				8FF6A56D1DA8B637008A403A /* HZLineLayout.m in Sources */,
 				8FF6A53C1DA8B5C7008A403A /* AppDelegate.m in Sources */,
 				8FF6A5391DA8B5C7008A403A /* main.m in Sources */,
 				8FF6A5761DA8B6B3008A403A /* HZPictureCell.m in Sources */,
+				8FF6A5C41DA8BAED008A403A /* HZLineLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +526,7 @@
 				8FF6A5631DA8B5C7008A403A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FF6A5641DA8B5C7008A403A /* Build configuration list for PBXNativeTarget "HZLineLayoutExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				8FF6A5661DA8B5C7008A403A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FF6A5671DA8B5C7008A403A /* Build configuration list for PBXNativeTarget "HZLineLayoutExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				8FF6A5691DA8B5C7008A403A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
