@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F4C85ED9A7089C98C0F4BF30C2E444935FF14EF7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6E6A97A23D7642BCE8A9F99E772197B581DEC283" : 0,
+    "F4C85ED9A7089C98C0F4BF30C2E444935FF14EF7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A4640924-61EF-46AC-A449-4D8B1DB1F165",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6E6A97A23D7642BCE8A9F99E772197B581DEC283" : "HZLineLayout\/",
+    "F4C85ED9A7089C98C0F4BF30C2E444935FF14EF7" : "HZWaterflowLayout\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HZLineLayoutExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HZLineLayoutExample\/HZLineLayoutExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HanZhuan\/HZLineLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6E6A97A23D7642BCE8A9F99E772197B581DEC283"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HanZhuan\/HZWaterflowLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4C85ED9A7089C98C0F4BF30C2E444935FF14EF7"
+    }
+  ]
+}
